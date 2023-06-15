@@ -6,22 +6,24 @@
  * para fazer o mapeamento das cores.
  */
 
-let color = "red"
+let color = "blue"
 
 switch (color) {
     case "blue":
-        console.log("azul")
+        console.log("azul");
         break;
     case "green":
-        console.log("verde")
+        console.log("verde");
         break;
     case "red":
-        console.log("vermelho")
+        console.log("vermelho");
         break;
     case "white":
-        console.log("branco")
+        console.log("branco");
         break;
     case "black":
-        console.log("preto")
+        console.log("preto");
         break;
+    default:
+        console.log("Esta cor não pode ser traduzida.");
 }

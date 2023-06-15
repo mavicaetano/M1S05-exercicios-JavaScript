@@ -7,7 +7,7 @@
  * (if, else if, else).
  */
 
-let idade = -10;
+let idade = 1;
 
 if (idade >= 0 && idade <= 12) {
     console.log("É uma criança!");

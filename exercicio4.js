@@ -11,12 +11,13 @@ let atual = 1;
 let anterior = -1;
 let aux = 0;
 let n = 20;
-
+let i = 0 
 
 //f(n-1)+f(n-2)
-for (i = 0; i < n; i++) {
+while (i < n) {
     aux = atual + anterior;
     anterior = atual;
     atual = aux;
     console.log(aux);
+    i++
 }

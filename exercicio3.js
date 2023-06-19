@@ -6,18 +6,20 @@
  * Utiliza uma estrutura de repetição (do while) para verificar as divisões.
  */
 
-function numeroPrimo(number) {
-    let i = number-1;
-    
-    while (i!=1) {
-        if (number%i==0) {
-            return "Este não é um número primo."
-        }
+let isNumeroPrimo = true;
+let number = 47;
+let i = number - 1;
 
-        i--;
+while (i != 1) {
+    if (number % i == 0) {
+        isNumeroPrimo = false;
     }
-    
-    return "Este é um número primo."
+
+    i--;
 }
 
-console.log(numeroPrimo(33));
+if (isNumeroPrimo) {
+    console.log("Este é um número primo.");
+} else {
+    console.log("Este não é um número primo.");s
+}
